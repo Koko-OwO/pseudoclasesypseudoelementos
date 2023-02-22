@@ -11,6 +11,11 @@ body{
     height: 100vh;
     display: flex;
 }
+.azu{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+}
 .altura1 {
     width: 100%;
     height: 3rem;
@@ -30,9 +35,7 @@ body{
     
 
 }
-.auto {
-    
-}
+
 .auto p:first-child{
     font-weight: bold;
     font-size: 120%;
