@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body{ 
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.altura1 {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    
+}
+.carita {
+    width: 100%;
+    display: flex;
+}
+.nalga {
+     background-color: aqua;
+    justify-content: center;
+}
+.altura2 {
+    height: 25rem;
+    
+
+}
+.auto {
+    width: 25%;
+}
+.auto p:first-child{
+    font-weight: bold;
+    font-size: 120%;
+    color: green;
+}
