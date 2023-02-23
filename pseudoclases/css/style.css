@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body{ 
+    text-align: center;
     margin: 0;
     padding: 0;
     
@@ -33,7 +34,8 @@ body{
     text-shadow: 2px 2px black;
 }
 .altura2 {
-    height: 25rem;
+    height: auto;
+    justify-content: center;
     
 
 }
@@ -44,3 +46,36 @@ body{
     color: green;
     
 }
+.ola:active {
+    color: white;
+    font-size: 155%;
+    background-color: #fb1260;
+
+}
+.lola:link {
+    color: #fb8f41;
+}
+.lola:any-link {
+    border-radius: 25%;
+    border: solid orangered;
+}
+.lola:visited {
+    font-size: 110%;
+    color: green;
+}
+input:checked + label {
+    color: red;
+    font-size: 150%;
+}
+input:default {
+    box-shadow: 0 0 2px 1px coral;
+}
+  
+input:default + label {
+    color: green;
+}
+#nati:checked {
+    color: #fb1260;
+    font-size: 110%;
+}
+

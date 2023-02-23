@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }
 body{ 
+    text-align: center;
     margin: 0;
     padding: 0;
     color:white;
     background-color: black;
     background-image: url(../media/image/back.gif);
-    background-repeat: no-repeat;
+   
     background-size: 100%;
     width: 100%;
     height: 100vh;
@@ -56,3 +57,9 @@ body{
     
 
 }
+
+
+
+
+
+ 
