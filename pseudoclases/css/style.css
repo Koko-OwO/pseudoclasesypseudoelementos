@@ -27,8 +27,10 @@ body{
     display: flex;
 }
 .nalga {
-     background-color: aqua;
+    background-image: radial-gradient(circle at 54.22% 1.72%, #fb8f41 0, #ff8244 10%, #ff7448 20%, #ff634c 30%, #ff5052 40%, #ff3858 50%, #fb1260 60%, #f50069 70%, #ee0074 80%, #e50081 90%, #da008e 100%);
     justify-content: center;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 .altura2 {
     height: 25rem;
@@ -40,4 +42,5 @@ body{
     font-weight: bold;
     font-size: 120%;
     color: green;
+    
 }
