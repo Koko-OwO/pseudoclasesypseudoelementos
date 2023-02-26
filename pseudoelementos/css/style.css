@@ -29,3 +29,11 @@ body{
     
 
 }
+.navbar {
+    width: 100%;
+    position: fixed;
+    transition: all 0.5 ease;
+}
+.navbar.active {
+    background-color: black;
+}
