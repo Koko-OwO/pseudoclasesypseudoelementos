@@ -21,12 +21,19 @@ body{
     width: 100%;
     height: 3rem;
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
 }
+h1 {
+    margin-top: 10px;
+} 
 .carita {
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .nalga {
     background-image: radial-gradient(circle at 54.22% 1.72%, #fb8f41 0, #ff8244 10%, #ff7448 20%, #ff634c 30%, #ff5052 40%, #ff3858 50%, #fb1260 60%, #f50069 70%, #ee0074 80%, #e50081 90%, #da008e 100%);
     justify-content: center;
@@ -82,8 +89,9 @@ input:default + label {
 .navbar {
     width: 100%;
     position: fixed;
-    transition: all 0.5 ease;
+    
 }
 .navbar.active {
     background-color: black;
+    position: fixed;
 }
