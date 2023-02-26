@@ -21,19 +21,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="index.html">Pseudo-clases</a>
+            <a class="nav-link " aria-current="page" href="index.html" target="_blank">Pseudo-clases</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../pseudoelementos/index.html">Pseudo-elementos</a>
+            <a class="nav-link" href="../pseudoelementos/index.html" target="_blank">Pseudo-elementos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://github.com/Koko-OwO?tab=repositories">Pagina de Github</a>
+            <a class="nav-link" href="https://github.com/Koko-OwO?tab=repositories" target="_blank">Pagina de Github</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <header class="container azu">
+  <header class="container azu2">
     <div class="row carita">
       <div class="col-xl-12 col-md-12 col-sd-12 col-12 altura1 nalga c">
         <h1>PSEUDOCLASES</h1>
@@ -47,6 +47,8 @@
       </div>
     </div>
   </div>
+
+
   <section class="container">
     <aside class="row carita">
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
@@ -54,15 +56,22 @@
         <a href="3" class="ola">Natalia</a>
         <p>Selecciona un elemento cuando el usuario lo activa (por ejemplo, con un clic).</p>
       </div>
+
+      
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
         <p>Pseudo-clase :any-link</p>
         <a href="#" class="lola">Pos si sirve</a>
         <p>Selecciona los estados :link y :visited de un enlace.</p>
       </div>
+
+
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
         <p>Pseudo-clase :blank</p>
         <p>Selecciona un elemento input cuyo valor de entrada está vacío.</p>
+        <input type="text" class="text">
       </div>
+
+
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
         <p>Pseudo-clase :checked</p>
         <div>
@@ -75,10 +84,14 @@
         </div>
         <p>Selecciona un botón de opción o casilla de verificación en el estado que determines.</p>
       </div>
+
+
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
-        <p>Pseudo-clase :current (en-US).</p>
+        <p>Pseudo-clase :current .</p>
         <p>Selecciona el elemento que se muestra en ese momento, o un ancestro de ese elemento.</p>
       </div>
+
+
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
         <p>Pseudo-clase :default</p>
         <input type="radio" name="season" id="spring">
@@ -100,52 +113,318 @@
         <p>Selecciona uno o más elementos de interfaz de usuario cuyo valor es el predeterminado de entre un conjunto de
           elementos similares..</p>
       </div>
+
+      
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
         <p>Pseudo-clase :dir</p>
         <p>Selecciona un elemento según su direccionalidad (valor del atributo dir de HTML o propiedad direction de
-          CSS).</p>
+          CSS). SOLO FUNCIONA EN MOZILLA FIREFOX</p>
+          <div class="autof" dir="rtl">
+            <span>wasa</span>
+            <div class="auto" dir="ltr">empanadas
+              <div dir="auto">nigga</div>
+            </div>
+          </div>
+          
       </div>
+
+
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
         <p>Pseudo-clase :disabled</p>
         <p>Selecciona elementos de la interfaz de usuario que están en estado inactivo.</p>
+        <form action="#">
+          <fieldset id="shipping">
+            <legend>Dirección de Envío</legend>
+            <input type="text" placeholder="Nombre">
+          </fieldset>
+          <br>
+          <fieldset  id="billing">
+            <legend>Dirección de facturación</legend>
+            <label for="billing_is_shipping">Igual que la dirección de envío:</label>
+            <input type="checkbox" id="billing-checkbox" checked>
+            <br>
+            <input type="text" placeholder="Nombre" disabled>
+          </fieldset>
+        </form>
       </div>
+
+
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
         <p>Pseudo-clase :empty</p>
         <p>Selecciona un elemento que no tiene elementos hijo, excepto por algún espacio en blanco opcional.</p>
+
+        <div class="cola">
+          <div class="box "></div>
+        <div class="box ">center</div>
+        <div class="box "></div>
+        </div>
       </div>
+
+
+
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
         <p>Pseudo-clase :enabled</p>
         <p>Selecciona elementos de la interfaz de usuario que están en estado activo.</p>
+       <form action="url_of_form">
+          <label for="FirstField">Escribe en mi 7w7 (habilitado):</label>
+          <input type="text" id="FirstField" value="si escribe"><br>
+
+          <label for="SecondField">Yamete kudasai (deshabilitado):</label>
+          <input type="text" id="SecondField" value="bloqueado" disabled="disabled"><br>
+
+          <input type="button" value="Enviar">
+        </form>
       </div>
 
+
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
-        <p>En Paged Media (en-US), selecciona la primera página.</p>
+        <p>:first</p>
+        <p>En Paged Media, selecciona la primera página.</p>
+        <p>Primera página.</p>
+        <p>Segunda página.</p>
+        <button>Imprimir!</button>
+
       </div>
+
+      
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
         <p>Pseudo-clase :first-child</p>
         <p>Selecciona el primero entre elementos hermanos.</p>
+        <p>lo que hago con todos los titulos</p>
       </div>
+
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
         <p>Pseudo-clase :first-of-type</p>
         <p>Selecciona el primero entre un tipo determinado de elementos hermanos.</p>
+        <article>
+          <div>!Este `div` es primero!</div>
+          <div>¡Este <span>`span` primero</span>!</div>
+          <div>¡Este <em>`em` primero</em>, pero este <em>`em` anidado es el último</em>!</div>
+          <div>¡Este <span>`span`estilo</span>!</div>
+          <b>¡Este `b` califica!</b>
+          <div>Este es el `div` final.</div>
+        </article>
+        
       </div>
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
         <p>Pseudo-clase :focus</p>
         <p>Selecciona el elemento que tiene el foco.</p>
+        <input class="red-input" value="gomitas"><br>
+        <input class="blue-input" value="Doritos.">
+
       </div>
+
+
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
         <p>Pseudo-clase :focus-visible</p>
         <p>Selecciona el elemento que tiene el foco cuando el foco tiene que estar visible para el usuario.</p>
+        <input value="Default styles"><br>
+        <input class="focus-visible-only" value=":focus-visible only"><br>
+
       </div>
+
+
+
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
         <p>Pseudo-clase :focus-within</p>
         <p>Selecciona el elemento que tiene el foco y el elemento con un descendiente que tiene el foco.</p>
+        <p>Intenta escribir en este formulario.</p>
+
+        <form>
+          <label for="given_name">Nombre:</label>
+          <input id="given_name" type="text">
+          <br>
+          <label for="family_name">Apellido:</label>
+          <input id="family_name" type="text">
+        </form>
+
       </div>
+
+
       <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
-        <p>Pseudo-clase :future (en-US)</p>
+        <p>Pseudo-clase :future</p>
         <p>Selecciona los elementos que van después del elemento en curso.
         </p>
-      </div>
+       
+     </div>
+
+     <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+      <p>:fullscreen</p>
+      <p>La pseudoclase CSS coincide con todos los elementos que se encuentran actualmente en modo de pantalla completa. Si varios elementos se han puesto en modo de pantalla completa, esto los selecciona a todos.:fullscreen
+      </p>
+      <h6>MDN Web Docs Demo: :fullscreen pseudo-class</h6>
+
+      <p>
+        This demo uses the <code>:fullscreen</code> pseudo-class to automatically
+        change the style of a button used to toggle fullscreen mode on and off,
+        entirely using CSS.
+      </p>
+      
+      <button id="fs-toggle">Toggle Fullscreen</button>
+      
+   </div>
+
+
+   <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+    <p>:has()</p>
+    <p>La pseudoclase:has() CSS funcional representa un elemento si alguno de los selectores relativos que se pasan como argumento coincide con al menos un elemento cuando se ancla contra este elemento. Esta pseudoclase presenta una forma de seleccionar un elemento padre o un elemento hermano anterior con respecto a un elemento de referencia tomando una lista de selector relativa como argumento.
+    </p>
+    <article>
+      <h1 class="indio" >Lorem.</h1>
+      <h2 class="indio2" >Lorem ipsum dolor sit.</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+       
+      </p>
+    </article>
+ </div>
+
+ <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:embaled</p>
+  <p>La pseudo-clase :enabled CSS representa cualquier elemento habilitado. Un elemento está habilitado si puede ser activado (es decir seleccionado, se puede hacer click en él, acepta que se le introduzca texto, etc.) o si accepta el foco. El elemento también tiene un estado deshabilitado el en cuál, no puede ser activado ni acepta el foco.
+  </p>
+  <form action="url_of_form">
+    <label for="FirstField">Primer campo (habilitado):</label>
+    <input type="text" id="FirstField" value="Lorem"><br>
+  
+    <label for="SecondField">Segundo campo (deshabilitado):</label>
+    <input type="text" id="SecondField" value="Ipsum" disabled="disabled"><br>
+  
+    <input type="button" value="Enviar">
+  </form>
+  
+</div>
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:hover</p>
+  La pseudo-clase :hover de CSS coincide cuando el usuario interactúa con un elemento con un dispositivo señalador, pero no necesariamente lo activa. Generalmente se activa cuando el usuario se desplaza sobre un elemento con el cursor (puntero del mouse).
+  </p>
+  
+  <button><a class="igual" href="#">arriba</a></button>
+
+</div>
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:indeterminate</p>
+  La pseudo-clase :indeterminate de CSS representa cualquier elemento de formulario cuyo estado sea indeterminado.
+  </p>
+ 
+  <div>
+    <input type="checkbox" id="checkbox">
+    <label for="checkbox">Esta etiqueta comienza con el color lima.</label>
+  </div>
+  <div>
+    <input type="radio" id="radio">
+    <label for="radio">Esta etiqueta comienza con el color lima.</label>
+  </div>
+  
+</div>
+
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:in-range</p>
+  La pseudo-clase (en-US) :in-range de CSS representa un elemento <input> cuyo valor actual se encuentra dentro de los límites de rango especificados por los atributos min y max.
+  </p>
+  <form action="" id="form1">
+    <ul>Los valores entre 1 y 10 son válidos.
+      <li>
+        <input id="value1" name="value1" type="number" placeholder="1 a 10" min="1" max="10" value="12">
+        <label for="value1">Tu valor esta </label>
+      </li>
+    </ul>
+  </form>
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:invalid</p>
+  La pseudo-clase :invalid de CSS representa cualquier elemento input u otro elemento form cuyos contenidos no se puedan validar .
+  </p>
+  <form>
+    <label for="url_input">Ingresa una URL:</label>
+    <input type="url" id="url_input" />
+    <br />
+    <br />
+    <label for="email_input">Introduzca una dirección de correo electrónico:</label>
+    <input type="email" id="email_input" required/>
+  </form>
+  
+</div>
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:lang</p>
+ <p>La pseudo-clase :lang() de CSS es utilizada para modificar elementos en función del idioma en el que se determina que están.</p>
+ <div lang="en"><q>Esta cita en inglés tiene una cita <q>anidada</q> adentro.</q></div>
+ <div lang="fr"><q>Esta cita en francés tiene una cita <q>anidada</q> adentro.</q></div>
+ <div lang="de"><q>Esta cita en aleman tiene una cita <q>anidada</q> adentro.</q></div>
+ 
+  
+</div>
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p></p>
+ <p></p>
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:last-child</p>
+ <p>La pseudo-clase :last-child de CSS representa el último elemento entre un grupo de elementos hermanos.
+</p>
+ <div class="piojo" >
+  <p>Este texto no está seleccionado.</p>
+  <p>¡Este texto está seleccionado!</p>
+</div>
+
+<div class="piojo" >
+  <p>Este texto no está seleccionado.</p>
+  <h2>Este texto no está seleccionado: no es un `p`.</h2>
+</div>
+
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p></p>
+ <p></p>
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p></p>
+ <p></p>
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p></p>
+ <p></p>
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p></p>
+ <p></p>
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p></p>
+ <p></p>
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p></p>
+ <p></p>
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p></p>
+ <p></p>
+</div>
 
 
     </aside>
