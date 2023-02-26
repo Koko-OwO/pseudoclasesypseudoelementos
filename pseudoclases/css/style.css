@@ -7,6 +7,10 @@ body{
     padding: 0;
    
 }
+body.dark {
+  background-color:#0c0b0b61;
+  color: white;
+}
 .container{
     width: 100%;
     height: 100vh;
@@ -47,7 +51,7 @@ h1 {
     text-shadow: 2px 2px black;
 }
 .altura2 {
-    height: 30rem;
+    height: auto;
 
     
 
@@ -266,3 +270,191 @@ input, button {
   padding: 5px;
 }
 
+.rio:last-of-type {
+  color: red;
+  font-style: italic;
+}
+.auto .kiokio:link{
+  background-color: pink;
+  color: green;
+}
+.sas:local-link {
+  color: green;
+}
+
+.fancy {
+  text-shadow: 2px 2px 3px gold;
+}
+
+/* elementos <p> que no están en la clase `.fancy` */
+.no:not(.fancy) {
+  color:blue;
+  text-shadow: 2px 2px green;
+}
+
+/* Elementos que no son elementos <p> */
+body :not(p) {
+  text-decoration: underline;
+}
+
+/* Elementos que no son elementos <div> o <span> */
+body :not(div):not(span) {
+  font-weight: bold;
+}
+
+/* Elementos que no son `.crazy` o `.fancy` */
+/* Tenga en cuenta que esta sintaxis aún no está bien soportada. */
+body :not(.crazy, .fancy) {
+  font-family: sans-serif;
+}
+
+
+html {
+  font-family: sans-serif;
+}
+
+span,
+div em {
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.first span:nth-child(2n+1),
+.second span:nth-child(2n+1),
+.third span:nth-of-type(2n+1) {
+  background-color: lime;
+}
+
+
+
+/* Párrafos impares */
+.piopio:nth-of-type(2n+1) {
+  color: red;
+}
+
+/* Párrafos pares */
+.piopio:nth-of-type(2n) {
+  color: blue;
+}
+
+/* Primer párrafo */
+.piopio:nth-of-type(1) {
+  font-weight: bold;
+}
+table {
+  border: 1px solid blue;
+}
+
+/* Selecciona los últimos tres elementos */
+tr:nth-last-child(-n+3) {
+  background-color: pink;
+}
+
+/* Toma todos los elementos a partir del penúltimo elemento */
+tr:nth-last-child(n+2) {
+  color: blue;
+}
+
+/* Seleccione solo el penúltimo elemento */
+tr:nth-last-child(2) {
+  font-weight: 600;
+}
+span:nth-last-of-type(2) {
+  background-color: lime;
+}
+main :only-child {
+  color: red;
+}
+main :only-of-type {
+  color: red;
+}
+li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+input {
+  border: 1px solid black;
+}
+
+input:in-range {
+  background-color: rgba(0, 255, 0, 0.25);
+}
+
+input:out-of-range {
+  background-color: rgba(255, 0, 0, 0.25);
+  border: 2px solid red;
+}
+
+input:in-range + label::after {
+  content: 'bien.';
+}
+
+input:out-of-range + label::after {
+  content: '¡fuera de rango!';
+}
+input {
+  border: 2px solid black;
+  padding: 3px;
+}
+
+input:placeholder-shown {
+  border-color: silver;
+}
+
+input {
+  border: 2px solid black;
+  padding: 3px;
+}
+
+.lingote:placeholder-shown {
+  border-color: silver;
+}
+.lingote { min-width: 10rem; }
+.lingote:-moz-read-only { background: cyan; }
+.lingote:read-only { background: cyan; }
+
+.lingote:-moz-read-only { background: lightgray; }
+.lingote:read-only { background: lightgray; }
+.lingote[contenteditable="true"] { color: blue; }
+
+.mongo { min-width: 10rem; }
+.mongo:-moz-read-write { background: cyan; }
+.mongo:read-write { background: cyan; }
+
+.mongo:-moz-read-write { background: lightgray; }
+.mongo:read-write { background: lightgray; }
+.mongo[contenteditable="true"] { color: blue; }
+
+
+.opo:target {
+  background-color: gold;
+}
+
+/* Agrega un pseudo-elemento dentro del elemento de destino */
+.opo:target::before {
+  font: 70% sans-serif;
+  content: "►";
+  color: limegreen;
+  margin-right: .25em;
+}
+
+/* Estilo de elementos en cursiva dentro del elemento de destino */
+.opo:target i {
+  color: red;
+}
+
+.lindo {
+  /* Especifique los valores predeterminados no transparentes a ciertas propiedades,
+     lo que les permite ser diseñado con el estado :visited */
+  background-color: white;
+  border: 1px solid white;
+}
+
+.lindo:visited {
+  background-color: yellow;
+  border-color: hotpink;
+  color: hotpink;
+}

@@ -362,10 +362,6 @@
   
 </div>
 
-<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
-  <p></p>
- <p></p>
-</div>
 
 
 <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
@@ -386,46 +382,291 @@
 
 
 <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
-  <p></p>
- <p></p>
+  <p>:last-of-type</p>
+ <p>La pseudo-class :last-of-type de CSS representa el último elemento de su tipo entre un grupo de elementos hermanos.</p>
+
+ <h2 >Título</h2>
+<p class="rio" >Párrafo 1</p>
+<p class="rio" >Párrafo 2</p>
+
 </div>
 
 
 <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
-  <p></p>
- <p></p>
+  <p>:left</p>
+ <p>La :left CSS pseudo-clase, utilizada con la regla @page at, representa todas las páginas de la izquierda de un documento impreso.</p>
+ <p>Nota: Esta pseudoclase se puede usar para cambiar solo las propiedades margin, padding, border y background del cuadro de página. Se ignorarán todas las demás propiedades y solo se verá afectado el cuadro de página, no el contenido del documento en la página.</p>
 </div>
 
 
 <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
-  <p></p>
- <p></p>
+  <p>:link</p>
+ <p>La pseudo-clase :link CSS representa un elemento que aún no se ha visitado. Coincide con cada elemento no visitado <a>, <area>, o <link> que tiene un atributo href.</p>
+  <a class="kiokio" href="#ordinary-target">Este es un enlace ordinario.</a><br>
+<a  class="kiokio" href="">Ya has visitado este enlace.</a><br>
+<a class="kiokio" >Enlace de marcador de posición (no se personalizará)</a>
+
 </div>
 
 
 <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
-  <p></p>
- <p></p>
+  <p>:local-link</p>
+ <p>La pseudoclase CSS representa un enlace al mismo documento. Por lo tanto, un elemento que es el ancla de origen de un hipervínculo cuya URL absoluta de destino coincide con la propia URL del documento del elemento.:local-link</p>
+  <a class="sas"  href="#target">This is a link on the current page.</a><br />
+  <a  class="sas" href="https://example.com">This is an external link</a><br />
+
 </div>
 
 
 <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
-  <p></p>
- <p></p>
+  <p>:not()
+  </p>
+  <p>La pseudoclase :not() de CSS representa elementos que no coinciden con una lista de selectores. Como evita que se seleccionen elementos específicos, se lo conoce como la pseudoclase de negación.</p>
+  <p  >Soy un párrafo.</p>
+  <p class="no" class="fancy">¡Soy muy elegante!</p>
+  <div>NO soy un párrafo.</div>
 </div>
 
 
 <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
-  <p></p>
- <p></p>
+  <p>:nth-child</p>
+ <p>La pseudo-clase :nth-child() de CSS coincide con uno o más elementos en función de su posición entre un grupo de hermanos.</p>
+
+ <h3><code>span:nth-child(2n+1)</code>, SIN un
+  <code>&lt;em&gt;</code> entre los hijos.</h3>
+<p>Los hijos 1, 3, 5 y 7 son seleccionados.</p>
+<div class="first">
+ <span>Span 1!</span>
+ <span>Span 2</span>
+ <span>Span 3!</span>
+ <span>Span 4</span>
+ <span>Span 5!</span>
+ <span>Span 6</span>
+ <span>Span 7!</span>
+</div>
+
+
 </div>
 
 
 <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
-  <p></p>
- <p></p>
+  <p>:nth-of-type</p>
+  <p>La pseudo-clase :nth-of-type() de CSS selecciona uno o más elementos de un tipo dado, en función de su posición entre un grupo de hermanos.</p>
+  <div>
+    <div>Este elemento no se cuenta.</div>
+    <p class="piopio" >1er párrafo.</p>
+    <p class="piopio" >2do párrafo.</p>
+    <div>Este elemento no se cuenta.</div>
+    <p class="piopio" >3er párrafo.</p>
+    <p class="piopio" >4to párrafo.</p>
+  </div>
+  
 </div>
 
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:nth-last-child</p>
+ <p>La pseudo-clase :nth-last-child() de CSS selecciona uno o más elementos en función de su posición entre un grupo de hermanos, contando desde el final.
+ </p>
+ <table>
+  <tbody>
+    <tr>
+      <td>Primera línea</td>
+    </tr>
+    <tr>
+      <td>Segunda línea</td>
+    </tr>
+    <tr>
+      <td>Tercera línea</td>
+    </tr>
+    <tr>
+      <td>Cuarta línea</td>
+    </tr>
+    <tr>
+      <td>Quinta línea</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:nth-last-of-type()</p>
+   <p>La pseudo-clase :nth-last-of-type() CSS coincide con uno o más elementos de un tipo dado, en función de su posición entre un grupo de hermanos, contando desde el final.</p>
+   <div>
+    <span>Este es un span.</span>
+    <span>Este es otro span.</span>
+    <em>Esto esta enfatizado.</em>
+    <span>¡Guauu, este span se pone color lima!</span>
+    <strike>Esto está tachado.</strike>
+    <span>Aquí hay un último span.</span>
+  </div>
+
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:only-child</p>
+  <p>La pseudo-clase (en-US) :only-child de CSS representa un elemento sin hermanos. Esto es lo mismo que :first-child:last-child o :nth-child(1):nth-last-child(1), pero con una especificidad menor.
+
+ </p>.
+ <main>
+  <div>
+    <i>Soy un hijo único y solitario.</i>
+  </div>
+
+  <div>
+    <i>Yo tengo hermanos.</i><br>
+    <b>¡Yo también!</b><br>
+    <span>Yo también tengo hermanos, <span>pero este es un hijo único.</span></span>
+  </div>
+</main>
+
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:only-of-type</p>
+  <p>La pseudo-clase :only-of-type CSS representa un elemento que no tiene hermanos del mismo tipo.
+  </p>
+    <div>
+      <i>Yo tengo hermanos.</i><br>
+      <b>¡Yo también!</b><br>
+      <span>Yo también tengo hermanos, <span>pero este es un hijo único.</span></span>
+      <main>
+        <div>Soy un `div` #1.</div>
+        <p>Yo soy el único `p` entre mis hermanos.</p>
+        <div>Soy un `div` #2.</div>
+        <div>Soy un `div` #3.
+          <i>Yo soy el único hijo `i`.</i>
+          <em>Soy un `em` #1.</em>
+          <em>Soy un `em` #2.</em>
+    
+    </main>
+  </div>
+    
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:optional</p>
+  <p>La pseudo-clase :optional de CSS representa cualquier elemento input, select, o textarea que no tenga el atributo required establecido en él.</p>
+</div>
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>::out-of-range</p>
+  <p>La pseudo-clase (en-US) :out-of-range de CSS representa un elemento <input> cuyo valor actual está fuera de los límites de rango especificados por los atributos min y max.</p>
+  <form action="" id="form1">
+    <ul>Los valores entre 1 y 10 son válidos.
+      <li>
+        <input id="value1" name="value1" type="number" placeholder="1 a 10" min="1" max="10" value="12">
+        <label for="value1">Tu valor esta </label>
+      </li>
+    </ul>
+  </form>
+  
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:placeholder-shown</p>
+  <p>La pseudo-clase :placeholder-shown de CSS representa cualquier elemento input o textarea que esté mostrando actualmente el texto de marcador de posición (placeholder).</p>
+  
+  <input placeholder="¡Escribe algo aquí!">
+
+</div>
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:playing </p>
+  <p>The :playing CSS pseudo-class selector is a resource state pseudo-class that will match an audio, video, or similar resource that is capable of being "played" or "paused", when that element is "playing".</p>
+  <p>solo funciona en safari</p>
+</div>
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:paused</p>
+  <p>El selector de pseudoclase CSS es una pseudoclase de estado de recurso que coincidirá con un recurso de audio, video o similar que se pueda "reproducir" o "pausar", cuando ese elemento esté "pausado".:paused</p>
+  <p>solo funciona en safari</p>
+</div>
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:read-only</p>
+  <p>La pseudo-clase :read-only de CSS representa un elemento que ya no es editable por el usuario (como un input).</p>
+  <input class="lingote" type="text" value="Aquí puedes poner lo que quieras.">
+  <input class="lingote" type="text" value="Campo de solo lectura." readonly>
+  <p class="lingote" >Este es un párrafo normal.</p>
+  <p  class="lingote" contenteditable="true">Puedes editar este párrafo, ¡inténtalo!</p>
+
+</div>
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:read-write</p>
+  <p>La pseudo-clase (en-US) :read-write de CSS representa un elemento (como un input) que es editable por el usuario..</p>
+  <input class="mongo"  type="text" value="Escribe lo que quieras aquí.">
+  <input class="mongo"  type="text" value="Este es un campo de solo lectura." readonly>
+  <p class="mongo" >Este es un párrafo normal.</p>
+  <p class="mongo"  contenteditable="true">¡Puedes editar este párrafo!</p>
+
+</div>
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:required</p>
+  <p>La pseudo-clase :required de CSS representa cualquier elemento input, select, o textarea que tenga el atributo required establecido en él.</p>
+
+</div>
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:right</p>
+  <p>La pseudo-clase CSS :right, utilizada con la regla-at @page, representa todas las páginas de la derecha de un documento impreso.</p>
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:root</p>
+  <p>La pseudo-clase :root de CSS selecciona el elemento raíz de un árbol que representa el documento. En HTML, :root representa el elemento <html> y es idéntico al selector html, excepto que su especificidad es mayor.</p>
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:scope</p>
+  <p>La pseudoclase CSS representa elementos que son un punto de referencia para que coincidan los selectores.:scope</p>
+  <p id="para">
+    This is a paragraph. It is not an interesting paragraph. Sorry about that.
+  </p>
+  <p id="output"></p>
+  
+</div>
+
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:valid</p>
+  <p>La pseudo-clase :valid de CSS representa cualquier elemento input u otro elemento form cuyo contenido se valide (en-US) satisfactoriamente. Esto permite que los campos válidos adopten fácilmente una apariencia que ayuda al usuario a confirmar que sus datos están formateados correctamente.</p>
+</div>
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:target</p>
+  <p>La pseudo-clase :target de CSS representa un elemento único (el elemento objetivo) con un id que coincide con el fragmento de la URL.</p>
+  <h3>Tabla de contenido</h3>
+<ol>
+ <li><a href="#p1">¡Salta al primer párrafo!</a></li>
+ <li><a href="#p2">¡Salta al segundo párrafo!</a></li>
+ <li><a href="#nowhere">Este enlace no va a ninguna parte,
+   porque el objetivo no existe.</a></li>
+</ol>
+
+<h3>Mi artículo divertido</h3>
+<p class="opo" id="p1">Puede orientar elegir como blanco <i>este párrafo</i> utilizando un
+  fragmento de URL. ¡Haz clic en el enlace de arriba para probar!</p>
+<p class="opo" id="p2">Este es <i>otro párrafo</i>, también accesible
+  desde los enlaces de arriba. ¿No es encantador?</p>
+
+</div>
+
+<div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+  <p>:visited</p>
+  <p>La pseudo-clase :visited de CSS representa enlaces que el usuario ya ha visitado. Por motivos de privacidad, los estilos que se pueden modificar con este selector son muy limitados.</p>
+  <a class="lindo" href="#test-visited-link">¿Ya has visitado este enlace?</a><br>
+  <a class="lindo" href="">Ya has visitado este enlace.</a>
+
+</div>
 
     </aside>
   </section>

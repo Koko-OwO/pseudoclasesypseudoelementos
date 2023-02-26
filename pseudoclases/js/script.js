@@ -33,5 +33,14 @@ for (var i = 0; i < inputs.length; i++) {
 
 
 
+const paragraph = document.getElementById("para");
+const output = document.getElementById("output");
+
+if (paragraph.matches(":scope")) {
+  output.textContent = "Yep, the element is its own scope as expected!";
+}
+
+
+
   
  
