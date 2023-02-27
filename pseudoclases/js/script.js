@@ -41,6 +41,15 @@ if (paragraph.matches(":scope")) {
 }
 
 
+document.querySelector(".socorro").onclick = function () {
+  window.print();
+}
+      var inputs = document.getElementsByTagName("input");
+
+      for (var i = 0; i < inputs.length; i++) {
+        inputs[i].indeterminate = true;
+      }
+
 
   
  
