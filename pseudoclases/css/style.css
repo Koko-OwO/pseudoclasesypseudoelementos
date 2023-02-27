@@ -23,7 +23,7 @@ body.dark {
 }
 .azu2{
     width: 100%;
-    height: 4rem;
+    height: 5rem;
     display: flex;
     opacity: 0;
 }
@@ -152,10 +152,9 @@ input:default + label {
     background: #ccc;
   }
 
-
-    .button {
-        cursor: pointer;
-    }
+.button {
+  cursor: pointer;
+ }
 article :first-of-type {
     background-color: green;
 }
@@ -194,10 +193,7 @@ input, button {
   input {
     margin: 4px;
   }
-  :future(p, span) {
-    display: none;
-  }
-  
+ 
   #fs-toggle:not(:fullscreen) {
     background-color: #afa;
   }
@@ -235,10 +231,7 @@ input, button {
   input:indeterminate + label {
     background: lime;
   }
-  li {
-    list-style: none;
-    margin-bottom: 1em;
-  }
+ 
   
   input {
     border: 1px solid black;
@@ -370,10 +363,7 @@ main :only-child {
 main :only-of-type {
   color: red;
 }
-li {
-  list-style: none;
-  margin-bottom: 1em;
-}
+
 
 input {
   border: 1px solid black;

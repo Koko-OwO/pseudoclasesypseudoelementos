@@ -8,11 +8,13 @@
     <title>Pseudoelementos By KOKO</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+<body id="body" >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary
+    shadow-lg p-3 mb-5 bg-body rounded nav">
+        <div class="container-fluid ">
             <a class="navbar-brand" href="../index.html" target="_blank">HOME</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,29 +25,132 @@
                     <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="../pseudoclases/index.html" target="_blank">Pseudo-clases</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Pseudo-elementos</a>
-                    </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="https://github.com/Koko-OwO?tab=repositories" target="_blank">Pagina de Github</a>
                     </li>
+                    
+                
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="container nalga">
-        <div class="row mijo">
-            <div class="col-xl-12 col-md-12 col-sd-12 mijo">
-                <h1 class="cuatro">Esta página esta en mantenimiento, vuelve en otra ocación</h1>
-            </div>
+   
 
+    <header class="container azu2">
+        <div class="row carita">
+          <div class="col-xl-12 col-md-12 col-sd-12 col-12 altura1 nalga c">
+            <h1>PSEUDOCLASES</h1>
+          </div>
         </div>
+      </header>
+      <div class="container azu">
+        <div class="row carita">
+          <div class="col-xl-12 col-md-12 col-sd-12 col-12 altura1 nalga c">
+            <h1>PSEUDOELEMENTOS</h1>
+          </div>
+        </div>
+      </div>
+    
+    
+      <section class="container">
+        <aside class="row carita">
 
-    </header>
 
+          <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+            <p>::after (:after)</p>
+            <p>En CSS, ::after crea un pseudo-elemento que es el último hijo del elemento seleccionado. Es comunmente usado para añadir contenido cosmético a un elemento con la propiedad content.Es en linea (inline) de forma predeterminada..</p>
+            <p class="boring-text">Here is some plain old boring text.</p>
+            <p>Here is some normal text that is neither boring nor exciting.</p>
+            <p class="exciting-text">Contributing to MDN is easy and fun.</p>
 
+          </div>
+    
+          
+          <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+            <p>::before (:before)</p>
+            <p>En CSS, ::before crea un pseudoelemento que es el primer hijo del elemento seleccionado. Es usado normalmente para añadir contenido estético a un elemento, usando la propiedad content. Este elemento se muestra en línea con el texto de forma predeterminada.</p>
+            <q>Some quotes</q>, he said, <q>are better than none</q>.
+
+          </div>
+    
+    
+          <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+            <p>::first-letter (:first-letter)</p>
+            <p>El pseudo-elemento ::first-letter aplica estilos a la primera letra de la primera línea un elemento de bloque, sólo cuando no es precedido de otro contenido (como imágenes o tablas).</p>
+
+            <p class="primero" >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus </p>
+          
+              <p class="primero" >「特殊的汉字标点符号开头。</p>
+         
+              
+          </div>
+    
+    
+          <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2 kk">
+            <p>::first-line (:first-line)</p>
+            
+            <p class="kk" >El Pseudoelemento ::first-line aplica estilos a la primera línea de un elemento de bloque. Nótese que la longitud de la primera línea depende de muchos factores, incluyendo el ancho del elemento, el ancho del documento y el tamaño de fuente del texto.</p>
+            <p class="kk" >Los estilos sólo se aplicarán en la primera línea de este párrafo.
+                Posteriormente, todo el texto tendrá el estilo normal.
+                ¿Ves?</p>
+                
+                <span class="kk" >La primera línea de este elemento no recibe ningún estilo
+                especial, porque no es un elemento de bloque.</span>
+                
+          </div>
+    
+    
+          <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2 pishi">
+            <p>:grammar-error</p>
+            <p>El pseudoelemento CSS representa un segmento de texto que el agente de usuario ha marcado como gramaticalmente incorrecto.::grammar-error</p>
+            <p>Ningun navegador lo soporta</p>
+           
+
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+            <p>::selection</p>
+            <p>El selector ::selection CSS pseudo-elemento aplica reglas a una porción de un documento que ha sido destacado (por ejemplo: selección con el mouse o algún otro puntero en un dispositivo) del usuario.
+
+                Sólo un pequeño subconjunto de propiedades CSS pueden ser usadas en una regla ::selection en el selector de: color, background, background-color y text-shadow. Nótese que, en particular, background-image es ignorado, como cualquier otra propiedad.</p>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+            <p>::spelling-error</p>
+            <p>El pseudo-elemento CSS ::spelling-error representa un segmento de texto que el user agent (en-US) ha marcado como deletreado incorrectamente.</p>
+            <p>no funciona en ningun navegador</p>
+          </div>
+          
+          <div class="col-xl-3 col-md-6 col-sd-12 col-12 auto altura2">
+            <p>Pseudo-clase :current .</p>
+            <p>Selecciona el elemento que se muestra en ese momento, o un ancestro de ese elemento.</p>
+          </div>
+        </aside>
+      </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     <script src="js/script.js"></script>
+    
+    <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>

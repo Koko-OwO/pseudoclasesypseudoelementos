@@ -1,5 +1,7 @@
-alert("Prueba tocando todos los botones <3")
+alert("¿que te parecio mi trabajo?")
 
 window.addEventList.toggle('scroll', funtion()
-    .classList.toggle('active', window.scrollY >0)
+    .classList.toggle('active', window.scrollY > 0)
 )
+
+
