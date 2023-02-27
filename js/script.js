@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function (){
   }
 
   
-  document.querySelector("button").onclick = function () {
+  document.querySelector(".socorro").onclick = function () {
     window.print();
   }
   var inputs = document.getElementsByTagName("input");
